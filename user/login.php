@@ -65,7 +65,7 @@ if (isset($conn)) {
         body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #6B21A8 0%, #7C3AED 50%, #9333EA 100%); min-height: 100vh; min-height: 100dvh; display: flex; align-items: center; justify-content: center; padding: 20px; }
         .login-container { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 24px; width: 100%; max-width: 420px; }
         .login-header { background: linear-gradient(135deg, #7C3AED 0%, #9333EA 100%); color: white; padding: 45px 30px 35px; text-align: center; border-radius: 24px 24px 0 0; }
-        .login-logo { width: 72px; height: 72px; object-fit: cover; border-radius: 50%; border: 2px solid rgba(255,255,255,0.4); margin-bottom: 12px; }
+        .login-logo { width: 78px; height: 78px; object-fit: contain; filter: drop-shadow(0 6px 12px rgba(0,0,0,0.3)); margin-bottom: 12px; }
         .login-header h2 { font-size: 24px; margin-bottom: 8px; line-height: 1.3; }
         .login-header p { font-size: 15px; opacity: 0.9; }
         .login-body { padding: 35px 30px 30px; }
@@ -227,7 +227,7 @@ if (isset($conn)) {
 <body>
     <div class="login-container">
         <div class="login-header">
-            <img src="../assets/Logo Dewan Ambalan.jpeg" alt="Logo Dewan Ambalan" class="login-logo">
+            <img src="../assets/logo-da.png" alt="Logo Dewan Ambalan" class="login-logo">
             <h2>Sistem Penilaian Kelulusan</h2>
         </div>
         <div class="login-body">

@@ -37,13 +37,11 @@
 		}
 
 		.logo {
-			width: 100px;
-			height: 100px;
-			object-fit: cover;
-			border-radius: 50%;
-			border: 3px solid rgba(255, 255, 255, 0.35);
+			width: 110px;
+			height: 110px;
+			object-fit: contain;
 			margin-bottom: 20px;
-			background: rgba(255, 255, 255, 0.12);
+			filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.35));
 		}
 
 		h1 {
@@ -168,7 +166,7 @@
 </head>
 <body>
 	<main class="welcome-card">
-		<img src="assets/Logo Dewan Ambalan.jpeg" alt="Logo Dewan Ambalan" class="logo">
+		<img src="assets/logo-da.png" alt="Logo Dewan Ambalan" class="logo">
 		<h1>Selamat Datang <br> Calon Dewan Ambalan 2026</h1>
 		<p>
 			Website ini adalah website yang dirancang sebagai website penghitungan nilai dan penentuan keputusan <span style="color: #00ff00; font-weight: 700;">Lulus</span> / <span style="color: #ff0000; font-weight: 700;">Tidak Lulus</span> kalian semua para Calon Dewan Ambalan 2026. Di dalam website ini, kalian dapat melihat rincian nilai dari setiap rintangan dan proses yang telah berhasil kalian lewati untuk menjadi Dewan Ambalan Sejati.

@@ -270,7 +270,7 @@ if ($pesertaResult && $pesertaResult->num_rows > 0) {
 body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #6B21A8 0%, #7C3AED 50%, #9333EA 100%); min-height: 100vh; color: white; }
 .header { background: rgba(0,0,0,0.2); backdrop-filter: blur(10px); padding: 20px 30px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
 .brand-title { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 700; }
-.brand-logo { width: 34px; height: 34px; object-fit: cover; border-radius: 50%; border: 2px solid rgba(255,255,255,0.35); }
+.brand-logo { width: 36px; height: 36px; object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); }
 .user-info { display: flex; gap: 15px; align-items: center; }
 .role-badge { background: rgba(167,139,250,0.2); padding: 5px 12px; border-radius: 8px; }
 .btn-logout { background: rgba(255,255,255,0.15); padding: 8px 20px; border-radius: 10px; text-decoration: none; color: white; transition: 0.3s; }
@@ -689,7 +689,7 @@ th:last-child, td:last-child { text-align: center; }
 <body>
 <div class="header">
     <div class="brand-title">
-        <img src="../assets/Logo Dewan Ambalan.jpeg" alt="Logo Dewan Ambalan" class="brand-logo">
+        <img src="../assets/logo-da.png" alt="Logo Dewan Ambalan" class="brand-logo">
         <span>Dashboard Admin</span>
     </div>
     <div class="user-info">

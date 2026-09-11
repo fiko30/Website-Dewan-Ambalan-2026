@@ -1,238 +1,337 @@
 <div align="center">
 
-  <img src="assets/Logo%20Dewan%20Ambalan.jpeg" alt="Logo Dewan Ambalan" width="130" style="border-radius: 50%; box-shadow: 0 4px 20px rgba(0,0,0,0.25);" />
+  <!-- Logo Dewan Ambalan (Transparan Tanpa Background) -->
+  <a href="https://github.com/fiko30/Website-Dewan-Ambalan-2026">
+    <img src="assets/logo-da.png" alt="Logo Dewan Ambalan" width="150" style="filter: drop-shadow(0 12px 24px rgba(124, 58, 237, 0.45));" />
+  </a>
 
-  # ⚜️ Website Seleksi Dewan Ambalan 2026
-  
-  **Sistem Informasi Seleksi, Manajemen Penilaian & Pengumuman Kelulusan Calon Dewan Ambalan**
+  <br/><br/>
 
-  [![PHP Version](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
-  [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-  [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-  [![Railway](https://img.shields.io/badge/Railway-Deployed-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+  # ⚜️ WEBSITESELEKSI DEWAN AMBALAN 2026
+  ### *Platform Cerdas Rekapitulasi Penilaian & Pengumuman Kelulusan Calon Dewan Ambalan*
 
+  <!-- Typing SVG Dynamic Banner -->
   <p align="center">
-    Aplikasi web responsif modern berbasis PHP dan MySQL untuk mendukung transparansi, akurasi, dan efisiensi dalam proses seleksi kepengurusan Dewan Ambalan Pramuka Penegak.
+    <a href="https://github.com/fiko30/Website-Dewan-Ambalan-2026">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=900&color=9333EA&center=true&vCenter=true&width=580&lines=Transparansi+Penilaian+Calon+Dewan+Ambalan;Dynamic+KKM+Threshold+Management;Portal+Pengumuman+Kelulusan+Real-Time;Cetak+%26+Unduh+Slip+Hasil+Seleksi+Resmi;Modern+Glassmorphism+Design+Experience" alt="Typing Dynamic Banner" />
+    </a>
+  </p>
+
+  <!-- Modern Tech Stack Dock (SkillIcons) -->
+  <p align="center">
+    <a href="#-teknologi--tech-stack">
+      <img src="https://skillicons.dev/icons?i=php,mysql,html,css,js,docker,git,linux" alt="Tech Stack Icons" />
+    </a>
+  </p>
+
+  <!-- Status Badges -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP 8.2" />
+    <img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+    <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/UI-Glassmorphism-9333EA?style=flat-square&logo=css3&logoColor=white" alt="Glassmorphism" />
+    <img src="https://img.shields.io/badge/Security-Sanitized_.env-059669?style=flat-square&logo=shield&logoColor=white" alt="Security" />
+    <img src="https://img.shields.io/badge/License-MIT-F59E0B?style=flat-square" alt="License MIT" />
   </p>
 
 </div>
 
 ---
 
-## 📋 Daftar Isi
-- [Tentang Aplikasi](#-tentang-aplikasi)
-- [Fitur Utama](#-fitur-utama)
-- [Teknologi](#-teknologi)
-- [Struktur Direktori](#-struktur-direktori)
-- [Panduan Instalasi Lokal](#-panduan-instalasi-lokal)
-- [Menjalankan dengan Docker](#-menjalankan-dengan-docker)
-- [Deployment ke Cloud (Railway)](#-deployment-ke-cloud-railway)
-- [Variabel Lingkungan (.env)](#-variabel-lingkungan-env)
-- [Akun Bawaan (Default Credentials)](#-akun-bawaan-default-credentials)
-- [Praktik Keamanan](#-praktik-keamanan)
-- [Lisensi](#-lisensi)
+<!-- MODERN QUICK NAVIGATION BAR -->
+<p align="center">
+  <a href="#-tentang-proyek"><img src="https://img.shields.io/badge/📖_Tentang-1e1b4b?style=for-the-badge&logoColor=white" alt="Tentang" /></a>
+  <a href="#-fitur-unggulan"><img src="https://img.shields.io/badge/✨_Fitur_Utama-4338ca?style=for-the-badge&logoColor=white" alt="Fitur" /></a>
+  <a href="#-arsitektur--alur-sistem"><img src="https://img.shields.io/badge/🏛️_Arsitektur-6366f1?style=for-the-badge&logoColor=white" alt="Arsitektur" /></a>
+  <a href="#-teknologi--tech-stack"><img src="https://img.shields.io/badge/⚡_Tech_Stack-7c3aed?style=for-the-badge&logoColor=white" alt="Tech Stack" /></a>
+  <a href="#-struktur-repositori"><img src="https://img.shields.io/badge/📂_Struktur-8b5cf6?style=for-the-badge&logoColor=white" alt="Struktur" /></a>
+  <a href="#-panduan-instalasi-lokal"><img src="https://img.shields.io/badge/🚀_Instalasi-a855f7?style=for-the-badge&logoColor=white" alt="Instalasi" /></a>
+  <a href="#-deployment-cloud--docker"><img src="https://img.shields.io/badge/☁️_Cloud_Deploy-d946ef?style=for-the-badge&logoColor=white" alt="Deploy" /></a>
+</p>
 
 ---
 
-## 📖 Tentang Aplikasi
+## 📑 Daftar Isi Interaktif
 
-**Website Dewan Ambalan 2026** adalah platform terintegrasi yang dirancang untuk memfasilitasi seluruh rangkaian seleksi calon anggota Dewan Ambalan baru. Sistem ini menggantikan pencatatan manual dengan sistem digital yang cepat, transparan, dan dapat diakses dari berbagai perangkat (desktop, tablet, hingga smartphone).
+<details open>
+<summary><b>🔍 Klik untuk Melihat / Menyembunyikan Peta Navigasi Cepat</b></summary>
+<br/>
 
-Dengan desain antarmuka bergaya **Glassmorphism modern**, sistem ini memberikan kenyamanan visual sekaligus kemudahan operasional baik bagi tim penilai (Admin) maupun calon anggota (Peserta).
+| No | Modul | Fokus Bahasan | Pintasan Langsung |
+| :---: | :--- | :--- | :---: |
+| **01** | 🧭 **Ikhtisar** | Latar belakang, tujuan, & value proposition sistem | [Kunjungi](#-tentang-proyek) |
+| **02** | 💎 **Fitur Unggulan** | Panel Admin, Portal Peserta, Scoring 3 Pos, Cetak Hasil | [Kunjungi](#-fitur-unggulan) |
+| **03** | 🧩 **Arsitektur Sistem** | Alur autentikasi, session isolation, & connection pool | [Kunjungi](#-arsitektur--alur-sistem) |
+| **04** | 🛠️ **Teknologi** | Showcase stack modern & spesifikasi library | [Kunjungi](#-teknologi--tech-stack) |
+| **05** | 🗂️ **Struktur Berkas** | Blueprint folder dan peran setiap komponen | [Kunjungi](#-struktur-repositori) |
+| **06** | ⚡ **Quickstart Lokal** | Setup via Laragon / XAMPP, konfigurasi `.env`, impor DB | [Kunjungi](#-panduan-instalasi-lokal) |
+| **07** | 🐳 **Container & Cloud** | Menjalankan dengan Docker & deployment instan di Railway | [Kunjungi](#-deployment-cloud--docker) |
+| **08** | 🔑 **Kredensial Bawaan** | Akun default administrator dan calon peserta | [Kunjungi](#-kredensial-bawaan--akun-default) |
+| **09** | 🛡️ **Pilar Keamanan** | Sanitasi variabel lingkungan, prepared statements, role guard | [Kunjungi](#-standar-keamanan) |
 
----
-
-## ✨ Fitur Utama
-
-### 🛡️ 1. Panel Administrator
-- **Dashboard Statistik Interaktif**: Menampilkan ringkasan total pendaftar, jumlah peserta lulus, jumlah tidak lulus, dan nilai rata-rata.
-- **Input & Rekapitulasi Nilai Seleksi**:
-  - 📝 **Tes Tulis** (Pemahaman kepramukaan, materi umum, dan kepemimpinan)
-  - 🗣️ **Wawancara** (Integritas, komitmen, loyalitas, dan kecakapan)
-  - 📄 **CV, Program Kerja & Visi Misi** (Kreativitas, kesiapan gagasan, dan rekam jejak)
-- **Pengaturan Ambang Batas KKM Dinamis**: Admin dapat mengubah standar KKM (Kriteria Ketuntasan Minimal) sewaktu-waktu secara langsung melalui dashboard.
-- **Kalkulasi Status Kelulusan Otomatis**: Sistem secara otomatis menentukan status `LULUS` atau `TIDAK LULUS` berdasarkan akumulasi skor terhadap KKM.
-- **Manajemen Peserta & Akun**: Tambah, perbarui nilai, dan hapus data peserta secara real-time.
-
-### 🎓 2. Portal Peserta (Calon Anggota)
-- **Login Personal**: Akses aman dengan akun khusus peserta.
-- **Rincian Nilai Transparan**: Mengetahui perolehan nilai dari masing-masing pos seleksi beserta total skor akhir.
-- **Status Kelulusan Real-Time**: Peserta langsung dapat mengetahui apakah dinyatakan lulus seleksi.
-- **Cetak / Unduh Bukti Hasil Seleksi**: Fitur unduh slip resmi hasil seleksi yang siap dicetak atau disimpan sebagai dokumen arsip.
-
-### ⚡ 3. Performa & Arsitektur
-- **Connection Pooling**: Manajemen koneksi database yang efisien untuk beban akses tinggi.
-- **Prepared Statements (MySQLi)**: Perlindungan menyeluruh terhadap ancaman SQL Injection.
-- **Konfigurasi Fleksibel Berbasis Environment**: Kompatibel dengan `.env` lokal, container Docker, maupun variabel cloud Railway.
+</details>
 
 ---
 
-## 🛠️ Teknologi
+## 📖 Tentang Proyek
 
-- **Backend**: PHP 8.2 (Native OOP & Procedural)
-- **Database**: MySQL / MariaDB dengan charset `utf8mb4`
-- **Frontend**: HTML5, Modern CSS3 (Glassmorphism & Flexbox/Grid Layout), JavaScript Vanilla
-- **Containerization**: Docker
-- **Hosting / Cloud Ready**: Railway, VPS, Laragon, XAMPP
+**Website Seleksi Dewan Ambalan 2026** adalah aplikasi berbasis web yang dibangun secara khusus untuk menunjang keterbukaan, ketertiban administratif, dan otomasi perhitungan skor dalam rangkaian seleksi Dewan Ambalan Pramuka Penegak.
+
+Peralihan dari format rekapitulasi konvensional (kertas / spreadsheet manual) ke sistem terintegrasi ini memberikan manfaat nyata:
+- ⏱️ **Efisiensi Waktu**: Otomatisasi akumulasi nilai dan penentuan kelulusan instan.
+- 🎯 **Akurasi Tinggi**: Mencegah kesalahan human-error saat input maupun perhitungan total skor.
+- 🌐 **Aksesibilitas Luas**: Desain adaptif berbasis mobile-first memungkinkan peserta mengecek hasil pengumuman langsung dari ponsel cerdas mereka.
+- 🎨 **Estetika Modern**: Antarmuka berbasis **Glassmorphism Theme** bergradien ungu-violet dengan backdrop-blur yang elegan dan responsif.
 
 ---
 
-## 📂 Struktur Direktori
+## ✨ Fitur Unggulan
 
-```plaintext
-├── admin/
-│   └── dashboard.php           # Panel kontrol & manajemen nilai oleh admin
-├── assets/
-│   ├── Logo Dewan Ambalan.jpeg # Logo identitas ambalan
-│   └── css/
-│       └── style.css           # Styling utama & styling glassmorphism
-├── config/
-│   └── config.php              # Koneksi database, connection pool, & helper KKM
-├── user/
-│   ├── dashboard.php           # Tampilan nilai & status peserta
-│   ├── download_hasil.php      # Halaman cetak/unduh slip hasil seleksi
-│   ├── login.php               # Halaman masuk untuk admin & peserta
-│   └── logout.php              # Pembersihan sesi & keluar
-├── .env.example                # Template konfigurasi environment database
-├── .gitignore                  # Berkas yang dikecualikan dari repositori Git
-├── database.sql                # Skema basis data siap import
-├── Dockerfile                  # Konfigurasi container Docker untuk deployment
-├── index.php                   # Halaman landing page sambutan
-└── README.md                   # Dokumentasi lengkap proyek
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                      FITUR UTAMA SISTEM SELEKSI                         │
+├────────────────────────────────────┬────────────────────────────────────┤
+│   🛡️ PANEL ADMINISTRATOR (ADMIN)   │    🎓 PORTAL PESERTA (SISWA/CALON) │
+├────────────────────────────────────┼────────────────────────────────────┤
+│ • Manajemen Data Peserta Lengkap   │ • Login Personal & Aman            │
+│ • Input Nilai 3 Pos Seleksi Utama  │ • Transparansi Rincian Nilai       │
+│ • Pengaturan KKM Dinamis Realtime  │ • Status Kelulusan (Lulus/Gagal)   │
+│ • Auto-generate Akun Login Default │ • Unduh / Cetak Resmi Slip Hasil   │
+│ • Filter Pencarian Cepat & Edit    │ • Tampilan Responsif Smartphone    │
+└────────────────────────────────────┴────────────────────────────────────┘
+```
+
+### 1. 🛡️ Modul Administrator
+- **Dashboard Metrik Statistik**: Tinjauan ringkas total pendaftar, jumlah peserta lulus, jumlah belum lulus, dan rata-rata skor.
+- **Form Penilaian Multi-Pos**:
+  - 📝 **Tes Tulis**: Mengukur pengetahuan umum, kepramukaan, dan analisis masalah (Skor: 0 - 100).
+  - 🗣️ **Wawancara**: Menilai kepemimpinan, kepribadian, integritas, dan loyalitas ambalan (Skor: 0 - 100).
+  - 📑 **CV, Program Kerja & Visi Misi**: Menimbang orisinalitas gagasan dan kesiapan rencana kerja (Skor: 0 - 100).
+- **Pengubah KKM Instan**: Standar kelulusan (KKM) dapat disesuaikan sewaktu-waktu sesuai kuota atau hasil rapat Dewan Kehormatan tanpa perlu menyentuh kode program.
+
+### 2. 🎓 Modul Peserta
+- **Status Kelulusan Otomatis**: Peserta melihat langsung status kelulusan mereka berdasarkan akumulasi nilai akhir terhadap KKM.
+- **Slip Hasil Seleksi Cetak**: Disediakan tombol langsung cetak (*printable view*) berformat rapi untuk arsip fisik peserta.
+
+---
+
+## 🏛️ Arsitektur & Alur Sistem
+
+Sistem dirancang dengan arsitektur yang aman dan modular:
+
+```mermaid
+flowchart TD
+    subgraph Client ["🌐 Client Layer"]
+        A[Pengunjung / Calon Peserta] -->|Akses Web| B(Landing Page index.php)
+        C[Admin / Tim Penguji] -->|Login| D(Login Page user/login.php)
+        A -->|Login Akun| D
+    end
+
+    subgraph AuthGuard ["🛡️ Session & Role Guard"]
+        D -->|Cek Kredensial & Role| E{Role Verification}
+        E -->|Role: Admin| F[Admin Dashboard admin/dashboard.php]
+        E -->|Role: Peserta| G[Student Dashboard user/dashboard.php]
+    end
+
+    subgraph BusinessLogic ["⚙️ Core Logic & Operations"]
+        F -->|Input Nilai 3 Pos & Atur KKM| H[CRUD & KKM Engine]
+        G -->|Lihat Rincian & Unduh| I[Slip Generator download_hasil.php]
+    end
+
+    subgraph DataLayer ["🗄️ Database & Storage Layer"]
+        H -->|Prepared Statements| J[(Database Connection Pool)]
+        I -->|Prepared Statements| J
+        J -->|Config via .env| K[(MySQL Database)]
+        K -->|Tabel users, penilaian, app_settings| J
+    end
+
+    style Client fill:#1e1b4b,stroke:#6366f1,stroke-width:2px,color:#fff
+    style AuthGuard fill:#2e1065,stroke:#8b5cf6,stroke-width:2px,color:#fff
+    style BusinessLogic fill:#3b0764,stroke:#a855f7,stroke-width:2px,color:#fff
+    style DataLayer fill:#022c22,stroke:#10b981,stroke-width:2px,color:#fff
 ```
 
 ---
 
-## 💻 Panduan Instalasi Lokal
+## ⚡ Teknologi / Tech Stack
 
-### Prasyarat:
-- Web Server Lokal (**Laragon** disarankan, atau XAMPP)
-- PHP versi 8.1 atau lebih baru (dengan ekstensi `mysqli` dan `pdo_mysql` aktif)
-- MySQL Server
+Kombinasi teknologi yang efisien, handal, dan mudah dijalankan di berbagai lingkungan:
 
-### Langkah-langkah:
+| Teknologi | Kategori | Logo | Fungsi & Kegunaan |
+| :--- | :---: | :---: | :--- |
+| **PHP 8.2+** | Backend Engine | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="34"/> | Pemrosesan logika bisnis, session handling, dan pooling koneksi MySQLi |
+| **MySQL 8.0** | Basis Data | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="34"/> | Penyimpanan relasional user, nilai penilaian, dan konfigurasi dinamis |
+| **HTML5** | Semantic Web | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="34"/> | Struktur dokumen modern dengan standar aksesibilitas tinggi |
+| **CSS3** | Modern Styling | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="34"/> | Glassmorphism, CSS Grid, Flexbox, & Backdrop Blur responsive |
+| **JavaScript** | Frontend Dynamic | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="34"/> | Interaktivitas form, toggle password, dan validasi sisi klien |
+| **Docker** | Kontainerisasi | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="34"/> | Portabilitas deployment yang identik antara lokal dan produksi |
+| **Git & GitHub** | Version Control | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="34"/> | Manajemen repositori, riwayat komit, dan kolaborasi tim |
 
-1. **Kloning Repositori**:
-   ```bash
-   git clone https://github.com/fiko30/Website-Dewan-Ambalan-2026.git
-   ```
-   Pindahkan folder proyek ke direktori web root server Anda (misal `d:/laragon/www/seleksi_da` atau `C:/xampp/htdocs/seleksi_da`).
+---
 
-2. **Setup Konfigurasi (.env)**:
-   Salin file `.env.example` menjadi `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-   Buka file `.env` dan sesuaikan koneksi basis data lokal Anda:
+## 📂 Struktur Repositori
+
+```
+website-dewan-ambalan-2026/
+├── 📁 admin/
+│   └── 📄 dashboard.php         # Panel kontrol utama, tabel penilaian, & setting KKM
+├── 📁 assets/
+│   ├── 🖼️ logo-da.png           # Logo transparan resmi Dewan Ambalan
+│   ├── 🖼️ Logo Dewan Ambalan.jpeg
+│   └── 📁 css/
+│       └── 📄 style.css         # Gaya visual custom & komponen glassmorphism
+├── 📁 config/
+│   └── 📄 config.php            # Loader .env, Singleton Database Pool, & helper KKM
+├── 📁 user/
+│   ├── 📄 dashboard.php         # Halaman hasil kelulusan & skor siswa
+│   ├── 📄 download_hasil.php    # Slip pengumuman kelulusan resmi siap cetak
+│   ├── 📄 login.php             # Halaman autentikasi akun terpadu
+│   └── 📄 logout.php            # Pembersihan sesi aman
+├── 📄 .env.example              # Blueprint variabel lingkungan database
+├── 📄 .gitignore                # Proteksi agar kredensial rahasia tidak terunggah
+├── 📄 database.sql              # Skema tabel (users, penilaian, app_settings)
+├── 📄 Dockerfile                # Konfigurasi containerized image PHP
+├── 📄 index.php                 # Halaman portal selamat datang
+├── 📄 LICENSE                   # Lisensi open-source MIT
+└── 📄 README.md                 # Dokumentasi komprehensif proyek
+```
+
+---
+
+## 🚀 Panduan Instalasi Lokal
+
+### 1. Kloning Repositori
+Jalankan terminal dan clone repositori ini ke folder server lokal Anda (misal `htdocs` XAMPP atau `www` Laragon):
+```bash
+git clone https://github.com/fiko30/Website-Dewan-Ambalan-2026.git
+cd Website-Dewan-Ambalan-2026
+```
+
+### 2. Atur Konfigurasi Basis Data (`.env`)
+Salin berkas template lingkungan:
+```bash
+cp .env.example .env
+```
+Buka berkas `.env` dan sesuaikan dengan kredensial database lokal:
+```env
+DB_HOST=localhost
+DB_USER=root
+DB_PASS=
+DB_NAME=seleksi_da
+DB_PORT=3306
+```
+
+### 3. Impor Database
+1. Buat database baru di MySQL bernama `seleksi_da`.
+2. Impor berkas [`database.sql`](database.sql) ke dalam database tersebut melalui **phpMyAdmin**, **HeidiSQL**, atau CLI:
+```bash
+mysql -u root -p seleksi_da < database.sql
+```
+
+### 4. Buka di Browser
+Akses aplikasi melalui peramban:
+```
+http://localhost/seleksi_da/
+```
+Atau gunakan web server bawaan PHP:
+```bash
+php -S localhost:8000
+```
+Lalu kunjungi `http://localhost:8000`.
+
+---
+
+## ☁️ Deployment Cloud & Docker
+
+### 🐳 Menjalankan dengan Docker
+
+Proyek sudah dilengkapi dengan [`Dockerfile`](Dockerfile) yang siap digunakan:
+
+```bash
+# 1. Build image
+docker build -t dewan-ambalan-app .
+
+# 2. Jalankan container
+docker run -d -p 8080:80 \
+  -e DB_HOST=host.docker.internal \
+  -e DB_USER=root \
+  -e DB_PASS=password_database \
+  -e DB_NAME=seleksi_da \
+  -e DB_PORT=3306 \
+  --name dewan-ambalan-web dewan-ambalan-app
+```
+Akses container pada: `http://localhost:8080`.
+
+---
+
+### 🚂 Deployment ke Railway
+
+Aplikasi telah dioptimalkan untuk cloud hosting [Railway](https://railway.app/):
+
+1. **Buat Proyek Baru**: Sambungkan repositori GitHub ini ke dashboard Railway.
+2. **Tambah Database**: Tambahkan layanan **MySQL Database** di canvas Railway.
+3. **Konfigurasi Environment**: Tambahkan variabel lingkungan pada service web:
    ```env
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASS=
-   DB_NAME=seleksi_da
-   DB_PORT=3306
+   DB_HOST=${{MySQL.MYSQLHOST}}
+   DB_USER=${{MySQL.MYSQLUSER}}
+   DB_PASS=${{MySQL.MYSQLPASSWORD}}
+   DB_NAME=${{MySQL.MYSQLDATABASE}}
+   DB_PORT=${{MySQL.MYSQLPORT}}
    ```
-
-3. **Impor Database**:
-   - Buka **phpMyAdmin** atau tool database favorit Anda (HeidiSQL, DBeaver, dll).
-   - Buat database baru bernama `seleksi_da`.
-   - Impor berkas `database.sql` yang tersedia di direktori root proyek.
-
-4. **Jalankan Aplikasi**:
-   - Jika menggunakan Laragon / XAMPP, buka browser dan akses:
-     ```
-     http://localhost/seleksi_da/
-     ```
-   - Atau jalankan built-in PHP server langsung dari terminal:
-     ```bash
-     php -S localhost:8000
-     ```
-     Lalu buka `http://localhost:8000`.
+4. **Impor Schema**: Gunakan connection string Railway untuk mengimpor berkas `database.sql`.
+5. Web app akan langsung aktif dan memiliki domain publik otomatis!
 
 ---
 
-## 🐳 Menjalankan dengan Docker
+## 🔑 Kredensial Bawaan & Akun Default
 
-Proyek ini telah dilengkapi dengan `Dockerfile` siap pakai.
+Pada saat impor skema `database.sql`, sistem telah menyediakan akun awal:
 
-1. **Build Docker Image**:
-   ```bash
-   docker build -t website-dewan-ambalan .
-   ```
+| Akun / Hak Akses | Username / Nama Lengkap | Password Bawaan | Deskripsi |
+| :--- | :--- | :--- | :--- |
+| 🛡️ **Administrator** | `Admin DA` | `Dewan Ambalan 2025` | Hak penuh mengelola nilai, data peserta, dan standar KKM |
+| 🎓 **Calon Peserta Baru** | *(Nama Peserta)* | `Calon Dewan Ambalan 2026` | Akun otomatis terbuat saat admin mendaftarkan peserta baru |
 
-2. **Jalankan Container**:
-   ```bash
-   docker run -d -p 8080:80 \
-     -e DB_HOST=host.docker.internal \
-     -e DB_USER=root \
-     -e DB_PASS=password_anda \
-     -e DB_NAME=seleksi_da \
-     -e DB_PORT=3306 \
-     --name dewan-ambalan-app website-dewan-ambalan
-   ```
-   Aplikasi akan dapat diakses pada alamat `http://localhost:8080`.
+> 🔒 **Himbauan Keamanan**: Segera ganti password akun administrator setelah melakukan instalasi pertama!
 
 ---
 
-## ☁️ Deployment ke Cloud (Railway)
+## 🛡️ Standar Keamanan
 
-Aplikasi ini telah dirancang untuk dapat di-deploy secara instan di [Railway](https://railway.app/):
-
-1. Hubungkan repositori GitHub Anda ke Railway Project baru.
-2. Tambahkan plugin **MySQL** pada Railway.
-3. Atur Environment Variables di dashboard Railway (Service Settings):
-   - `DB_HOST`: `${{MySQL.MYSQLHOST}}`
-   - `DB_USER`: `${{MySQL.MYSQLUSER}}`
-   - `DB_PASS`: `${{MySQL.MYSQLPASSWORD}}`
-   - `DB_NAME`: `${{MySQL.MYSQLDATABASE}}`
-   - `DB_PORT`: `${{MySQL.MYSQLPORT}}`
-   *(Atau Railway secara otomatis mengenali variabel bawaan `MYSQLHOST`, `MYSQLUSER`, dll)*
-4. Impor tabel dari file `database.sql` ke database Railway menggunakan database client.
-5. Deploy selesai! Railway akan menjalankan web server PHP secara otomatis.
+- 🔐 **Kredensial Terisolasi**: Seluruh kredensial rahasia (host, password, nama database) dipisahkan ke dalam `.env` dan tidak tersimpan di repositori publik.
+- 💉 **Bebas SQL Injection**: Setiap parameter input diproses melalui **MySQLi Prepared Statements** dengan pemetaan tipe data ketat (`bind_param`).
+- 🛑 **Proteksi Sesi Role-Based**: Mencegah eksploitasi URL transversal; akun siswa tidak dapat membuka dashboard admin tanpa session token yang sah.
+- 🧹 **Sanitasi XSS**: Output data peserta di-render menggunakan `htmlspecialchars()` untuk menetralkan script berbahaya.
 
 ---
 
-## ⚙️ Variabel Lingkungan (.env)
+## 🤝 Kontribusi & Dukungan
 
-| Variabel | Keterangan | Nilai Default |
-|---|---|---|
-| `DB_HOST` / `MYSQLHOST` | Host server database | `localhost` |
-| `DB_USER` / `MYSQLUSER` | Username database | `root` |
-| `DB_PASS` / `MYSQLPASSWORD` | Password database | *(kosong)* |
-| `DB_NAME` / `MYSQLDATABASE` | Nama basis data | `seleksi_da` |
-| `DB_PORT` / `MYSQLPORT` | Port server database | `3306` |
-
----
-
-## 🔑 Akun Bawaan (Default Credentials)
-
-Sistem menyertakan akun default pada saat inisialisasi skema `database.sql`:
-
-| Role | Username (Nama Lengkap) | Password Bawaan |
-|---|---|---|
-| **Administrator** | `Admin DA` | `Dewan Ambalan 2025` |
-| **Peserta Baru** *(Dibuat Admin)* | *(Sesuai input nama)* | `Calon Dewan Ambalan 2026` |
-
-> ⚠️ **PENTING**: Segera perbarui password administrator setelah melakukan instalasi pertama demi keamanan data organisasi.
-
----
-
-## 🔒 Praktik Keamanan
-
-1. **Pemisahan Kredensial**: Tidak ada kredensial, host, atau password database yang disimpan langsung di dalam kode program (`hardcoded`). Seluruh konfigurasi sensitif dipisahkan ke dalam berkas `.env`.
-2. **Pencegahan Kebocoran Git**: File `.env` telah didaftarkan dalam `.gitignore` sehingga tidak akan terunggah ke repositori publik.
-3. **Pencegahan SQL Injection**: Semua interaksi data dinamis menggunakan MySQLi Prepared Statements dengan parameter binding bertipe ketat.
-4. **Proteksi Sesi**: Sesi pengguna diisolasi berdasarkan role (`admin` atau `peserta`) dan divalidasi pada setiap halaman dashboard.
-
----
-
-## 📄 Lisensi
-
-Didistribusikan di bawah lisensi MIT. Lihat berkas `LICENSE` untuk rincian lebih lanjut.
+Kontribusi selalu terbuka! Jika Anda ingin menambahkan fitur atau memperbaiki bug:
+1. **Fork** repositori ini
+2. Buat branch fitur baru (`git checkout -b fitur/FiturKeren`)
+3. Lakukan commit perubahan (`git commit -m 'feat: Tambah fitur baru'`)
+4. Push ke branch (`git push origin fitur/FiturKeren`)
+5. Buat **Pull Request**
 
 ---
 
 <div align="center">
-  <b>Satyaku Kudarmakan, Darmaku Kubaktikan ⚜️</b><br>
-  <i>Salam Pramuka!</i>
+
+  **Jika proyek ini bermanfaat bagi ambalan atau organisasi Anda, berikan STAR 🌟 di GitHub!**
+
+  <br/>
+
+  <a href="https://github.com/fiko30/Website-Dewan-Ambalan-2026/stargazers">
+    <img src="https://img.shields.io/github/stars/fiko30/Website-Dewan-Ambalan-2026?style=social" alt="GitHub Stars" />
+  </a>
+  <a href="https://github.com/fiko30/Website-Dewan-Ambalan-2026/network/members">
+    <img src="https://img.shields.io/github/forks/fiko30/Website-Dewan-Ambalan-2026?style=social" alt="GitHub Forks" />
+  </a>
+
+  <br/><br/>
+
+  <b>Satyaku Kudarmakan, Darmaku Kubaktikan ⚜️</b><br/>
+  <i>Ikhlas Bakti Bina Bangsa, Berbudi Bawa Laksana. Salam Pramuka!</i>
+
 </div>

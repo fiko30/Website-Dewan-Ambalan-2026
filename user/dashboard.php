@@ -55,7 +55,7 @@ body {
     align-items: center;
 }
 .brand-title { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 600; }
-.brand-logo { width: 34px; height: 34px; object-fit: cover; border-radius: 50%; border: 2px solid rgba(255,255,255,0.35); }
+.brand-logo { width: 36px; height: 36px; object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); }
 .user-info { display: flex; align-items: center; gap: 15px; }
 .btn-logout {
     background: rgba(255, 255, 255, 0.15); color: white; border: 1px solid rgba(255, 255, 255, 0.3);
@@ -298,7 +298,7 @@ body {
 <body>
 <div class="header">
     <div class="brand-title">
-        <img src="../assets/Logo Dewan Ambalan.jpeg" alt="Logo Dewan Ambalan" class="brand-logo">
+        <img src="../assets/logo-da.png" alt="Logo Dewan Ambalan" class="brand-logo">
         <span>Arunika Estungkara</span>
     </div>
     <div class="user-info">
