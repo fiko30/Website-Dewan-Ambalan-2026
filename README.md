@@ -7,7 +7,7 @@
 
   <br/><br/>
 
-  # ⚜️ WEBSITESELEKSI DEWAN AMBALAN 2026
+  # ⚜️ WEBSITE SELEKSI DEWAN AMBALAN 2026 ⚜️
   ### *Platform Cerdas Rekapitulasi Penilaian & Pengumuman Kelulusan Calon Dewan Ambalan*
 
   <!-- Typing SVG Dynamic Banner -->
@@ -51,7 +51,7 @@
 
 ---
 
-## 📑 Daftar Isi Interaktif
+## 📑 Daftar Isi 
 
 <details open>
 <summary><b>🔍 Klik untuk Melihat / Menyembunyikan Peta Navigasi Cepat</b></summary>
@@ -91,7 +91,7 @@ Peralihan dari format rekapitulasi konvensional (kertas / spreadsheet manual) ke
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                      FITUR UTAMA SISTEM SELEKSI                         │
 ├────────────────────────────────────┬────────────────────────────────────┤
-│   🛡️ PANEL ADMINISTRATOR (ADMIN)   │    🎓 PORTAL PESERTA (SISWA/CALON) │
+│   🛡️ PANEL ADMINISTRATOR (ADMIN)       🎓 PORTAL PESERTA (SISWA/CALON) │
 ├────────────────────────────────────┼────────────────────────────────────┤
 │ • Manajemen Data Peserta Lengkap   │ • Login Personal & Aman            │
 │ • Input Nilai 3 Pos Seleksi Utama  │ • Transparansi Rincian Nilai       │
