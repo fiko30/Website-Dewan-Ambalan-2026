@@ -40,13 +40,13 @@
 
 <!-- MODERN QUICK NAVIGATION BAR -->
 <p align="center">
-  <a href="#-tentang-proyek"><img src="https://img.shields.io/badge/📖_Tentang-1e1b4b?style=for-the-badge&logoColor=white" alt="Tentang" /></a>
-  <a href="#-fitur-unggulan"><img src="https://img.shields.io/badge/✨_Fitur_Utama-4338ca?style=for-the-badge&logoColor=white" alt="Fitur" /></a>
-  <a href="#-arsitektur--alur-sistem"><img src="https://img.shields.io/badge/🏛️_Arsitektur-6366f1?style=for-the-badge&logoColor=white" alt="Arsitektur" /></a>
-  <a href="#-teknologi--tech-stack"><img src="https://img.shields.io/badge/⚡_Tech_Stack-7c3aed?style=for-the-badge&logoColor=white" alt="Tech Stack" /></a>
-  <a href="#-struktur-repositori"><img src="https://img.shields.io/badge/📂_Struktur-8b5cf6?style=for-the-badge&logoColor=white" alt="Struktur" /></a>
-  <a href="#-panduan-instalasi-lokal"><img src="https://img.shields.io/badge/🚀_Instalasi-a855f7?style=for-the-badge&logoColor=white" alt="Instalasi" /></a>
-  <a href="#-deployment-cloud--docker"><img src="https://img.shields.io/badge/☁️_Cloud_Deploy-d946ef?style=for-the-badge&logoColor=white" alt="Deploy" /></a>
+  <a href="#tentang-proyek"><img src="https://img.shields.io/badge/📖_Tentang-1e1b4b?style=for-the-badge&logoColor=white" alt="Tentang" /></a>
+  <a href="#fitur-unggulan"><img src="https://img.shields.io/badge/✨_Fitur_Utama-4338ca?style=for-the-badge&logoColor=white" alt="Fitur" /></a>
+  <a href="#arsitektur-alur-sistem"><img src="https://img.shields.io/badge/🏛_Arsitektur-6366f1?style=for-the-badge&logoColor=white" alt="Arsitektur" /></a>
+  <a href="#teknologi-tech-stack"><img src="https://img.shields.io/badge/⚡_Tech_Stack-7c3aed?style=for-the-badge&logoColor=white" alt="Tech Stack" /></a>
+  <a href="#struktur-repositori"><img src="https://img.shields.io/badge/📂_Struktur-8b5cf6?style=for-the-badge&logoColor=white" alt="Struktur" /></a>
+  <a href="#panduan-instalasi-lokal"><img src="https://img.shields.io/badge/🚀_Instalasi-a855f7?style=for-the-badge&logoColor=white" alt="Instalasi" /></a>
+  <a href="#deployment-cloud-docker"><img src="https://img.shields.io/badge/☁_Cloud_Deploy-d946ef?style=for-the-badge&logoColor=white" alt="Deploy" /></a>
 </p>
 
 ---
@@ -59,20 +59,21 @@
 
 | No | Modul | Fokus Bahasan | Pintasan Langsung |
 | :---: | :--- | :--- | :---: |
-| **01** | 🧭 **Ikhtisar** | Latar belakang, tujuan, & value proposition sistem | [Kunjungi](#-tentang-proyek) |
-| **02** | 💎 **Fitur Unggulan** | Panel Admin, Portal Peserta, Scoring 3 Pos, Cetak Hasil | [Kunjungi](#-fitur-unggulan) |
-| **03** | 🧩 **Arsitektur Sistem** | Alur autentikasi, session isolation, & connection pool | [Kunjungi](#-arsitektur--alur-sistem) |
-| **04** | 🛠️ **Teknologi** | Showcase stack modern & spesifikasi library | [Kunjungi](#-teknologi--tech-stack) |
-| **05** | 🗂️ **Struktur Berkas** | Blueprint folder dan peran setiap komponen | [Kunjungi](#-struktur-repositori) |
-| **06** | ⚡ **Quickstart Lokal** | Setup via Laragon / XAMPP, konfigurasi `.env`, impor DB | [Kunjungi](#-panduan-instalasi-lokal) |
-| **07** | 🐳 **Container & Cloud** | Menjalankan dengan Docker & deployment instan di Railway | [Kunjungi](#-deployment-cloud--docker) |
-| **08** | 🔑 **Kredensial Bawaan** | Akun default administrator dan calon peserta | [Kunjungi](#-kredensial-bawaan--akun-default) |
-| **09** | 🛡️ **Pilar Keamanan** | Sanitasi variabel lingkungan, prepared statements, role guard | [Kunjungi](#-standar-keamanan) |
+| **01** | 🧭 **Ikhtisar** | Latar belakang, tujuan, & value proposition sistem | [Kunjungi](#tentang-proyek) |
+| **02** | 💎 **Fitur Unggulan** | Panel Admin, Portal Peserta, Scoring 3 Pos, Cetak Hasil | [Kunjungi](#fitur-unggulan) |
+| **03** | 🧩 **Arsitektur Sistem** | Alur autentikasi, session isolation, & connection pool | [Kunjungi](#arsitektur-alur-sistem) |
+| **04** | 🛠️ **Teknologi** | Showcase stack modern & spesifikasi library | [Kunjungi](#teknologi-tech-stack) |
+| **05** | 🗂️ **Struktur Berkas** | Blueprint folder dan peran setiap komponen | [Kunjungi](#struktur-repositori) |
+| **06** | ⚡ **Quickstart Lokal** | Setup via Laragon / XAMPP, konfigurasi `.env`, impor DB | [Kunjungi](#panduan-instalasi-lokal) |
+| **07** | 🐳 **Container & Cloud** | Menjalankan dengan Docker & deployment instan di Railway | [Kunjungi](#deployment-cloud-docker) |
+| **08** | 🔑 **Kredensial Bawaan** | Akun default administrator dan calon peserta | [Kunjungi](#kredensial-bawaan-akun-default) |
+| **09** | 🛡️ **Pilar Keamanan** | Sanitasi variabel lingkungan, prepared statements, role guard | [Kunjungi](#standar-keamanan) |
 
 </details>
 
 ---
 
+<a id="tentang-proyek"></a><a id="-tentang-proyek"></a>
 ## 📖 Tentang Proyek
 
 **Website Seleksi Dewan Ambalan 2026** adalah aplikasi berbasis web yang dibangun secara khusus untuk menunjang keterbukaan, ketertiban administratif, dan otomasi perhitungan skor dalam rangkaian seleksi Dewan Ambalan Pramuka Penegak.
@@ -85,6 +86,7 @@ Peralihan dari format rekapitulasi konvensional (kertas / spreadsheet manual) ke
 
 ---
 
+<a id="fitur-unggulan"></a><a id="-fitur-unggulan"></a>
 ## ✨ Fitur Unggulan
 
 ```
@@ -115,7 +117,8 @@ Peralihan dari format rekapitulasi konvensional (kertas / spreadsheet manual) ke
 
 ---
 
-## 🏛️ Arsitektur & Alur Sistem
+<a id="arsitektur-alur-sistem"></a><a id="-arsitektur--alur-sistem"></a>
+## 🏛 Arsitektur & Alur Sistem
 
 Sistem dirancang dengan arsitektur berlapis yang modular, aman, dan efisien:
 
@@ -168,6 +171,7 @@ Sistem dirancang dengan arsitektur berlapis yang modular, aman, dan efisien:
 
 ---
 
+<a id="teknologi-tech-stack"></a><a id="-teknologi--tech-stack"></a>
 ## ⚡ Teknologi / Tech Stack
 
 Kombinasi teknologi yang efisien, handal, dan mudah dijalankan di berbagai lingkungan:
@@ -184,6 +188,7 @@ Kombinasi teknologi yang efisien, handal, dan mudah dijalankan di berbagai lingk
 
 ---
 
+<a id="struktur-repositori"></a><a id="-struktur-repositori"></a>
 ## 📂 Struktur Repositori
 
 ```
@@ -213,6 +218,7 @@ website-dewan-ambalan-2026/
 
 ---
 
+<a id="panduan-instalasi-lokal"></a><a id="-panduan-instalasi-lokal"></a>
 ## 🚀 Panduan Instalasi Lokal
 
 ### 1. Kloning Repositori
@@ -256,7 +262,8 @@ Lalu kunjungi `http://localhost:8000`.
 
 ---
 
-## ☁️ Deployment Cloud & Docker
+<a id="deployment-cloud-docker"></a><a id="-deployment-cloud--docker"></a>
+## ☁ Deployment Cloud & Docker
 
 ### 🐳 Menjalankan dengan Docker
 
@@ -298,6 +305,7 @@ Aplikasi telah dioptimalkan untuk cloud hosting [Railway](https://railway.app/):
 
 ---
 
+<a id="kredensial-bawaan-akun-default"></a><a id="-kredensial-bawaan--akun-default"></a>
 ## 🔑 Kredensial Bawaan & Akun Default
 
 Pada saat impor skema `database.sql`, sistem telah menyediakan akun awal:
@@ -311,7 +319,8 @@ Pada saat impor skema `database.sql`, sistem telah menyediakan akun awal:
 
 ---
 
-## 🛡️ Standar Keamanan
+<a id="standar-keamanan"></a><a id="-standar-keamanan"></a>
+## 🛡 Standar Keamanan
 
 - 🔐 **Kredensial Terisolasi**: Seluruh kredensial rahasia (host, password, nama database) dipisahkan ke dalam `.env` dan tidak tersimpan di repositori publik.
 - 💉 **Bebas SQL Injection**: Setiap parameter input diproses melalui **MySQLi Prepared Statements** dengan pemetaan tipe data ketat (`bind_param`).
@@ -320,6 +329,7 @@ Pada saat impor skema `database.sql`, sistem telah menyediakan akun awal:
 
 ---
 
+<a id="kontribusi-dukungan"></a><a id="-kontribusi--dukungan"></a>
 ## 🤝 Kontribusi & Dukungan
 
 Kontribusi selalu terbuka! Jika Anda ingin menambahkan fitur atau memperbaiki bug:
