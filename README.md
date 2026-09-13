@@ -121,7 +121,7 @@ Sistem dirancang dengan arsitektur berlapis yang modular, aman, dan efisien:
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
-│                            🌐 1. CLIENT LAYER                              │
+│                              1. CLIENT LAYER                               │
 │   [ Calon Peserta / Siswa ]                    [ Admin / Tim Penilai ]     │
 │              │                                            │                │
 │              ▼                                            ▼                │
@@ -129,29 +129,29 @@ Sistem dirancang dengan arsitektur berlapis yang modular, aman, dan efisien:
 └─────────────────────────────────────┬──────────────────────────────────────┘
                                       │ Validasi Kredensial & Sesi
                                       ▼
-┌────────────────────────────────────────────────────────────────────────────┐
-│                        🛡️ 2. AUTH & ACCESS GUARD                           │
-│                       [ Role Verification Engine ]                         │
+┌─────────────────────────────────────┴──────────────────────────────────────┐
+│                       2. AUTH & ACCESS GUARD                               │
+│                     [ Role Verification Engine ]                           │
 │                 ┌───────────────────┴───────────────────┐                  │
 │                 ▼                                       ▼                  │
 │       Role: Peserta (Siswa)                   Role: Administrator          │
 └─────────────────┬───────────────────────────────────────┬──────────────────┘
                   │                                       │
                   ▼                                       ▼
-┌─────────────────────────────────────┐ ┌────────────────────────────────────┐
-│       🎓 3A. PORTAL PESERTA         │ │     🛡️ 3B. PANEL ADMINISTRATOR     │
-│ • Dashboard Nilai & Status Lulus    │ │ • Input Nilai 3 Pos Seleksi Utama  │
-│ • Transparansi Rincian Skor Pos     │ │ • Manajemen Ambang Batas (KKM)     │
-│ • Unduh / Cetak Slip Hasil Resmi    │ │ • Rekapitulasi & Manajemen Peserta │
-└─────────────────┬───────────────────┘ └─────────────────┬──────────────────┘
+┌────────────────────────────────────┐ ┌─────────────────────────────────────┐
+│        3A. PORTAL PESERTA          │ │       3B. PANEL ADMINISTRATOR       │
+│ - Dashboard Nilai & Status Lulus   │ │ - Input Nilai 3 Pos Seleksi Utama   │
+│ - Transparansi Rincian Skor Pos    │ │ - Manajemen Ambang Batas (KKM)      │
+│ - Unduh / Cetak Slip Hasil Resmi   │ │ - Rekapitulasi & Manajemen Peserta  │
+└─────────────────┬──────────────────┘ └─────────────────┬───────────────────┘
                   │                                       │
                   └───────────────────┬───────────────────┘
                                       │ Prepared Statements (MySQLi Pool)
                                       ▼
-┌────────────────────────────────────────────────────────────────────────────┐
-│                   🗄️ 4. DATABASE & STORAGE LAYER (MySQL)                   │
-│   • users (Akun & Role)                  • penilaian (Skor 3 Pos Seleksi)  │
-│   • app_settings (Ambang Batas KKM)      • Terisolasi Aman via .env        │
+┌─────────────────────────────────────┴──────────────────────────────────────┐
+│                    4. DATABASE & STORAGE LAYER (MySQL)                     │
+│   - users (Akun & Role)                  - penilaian (Skor 3 Pos Seleksi)  │
+│   - app_settings (Ambang Batas KKM)      - Terisolasi Aman via .env        │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
 
