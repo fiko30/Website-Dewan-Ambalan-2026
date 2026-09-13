@@ -20,7 +20,7 @@
   <!-- Modern Tech Stack Dock (SkillIcons) -->
   <p align="center">
     <a href="#-teknologi--tech-stack">
-      <img src="https://skillicons.dev/icons?i=php,mysql,html,css,js,docker,git,linux" alt="Tech Stack Icons" />
+      <img src="https://skillicons.dev/icons?i=php,mysql,html,css,js,docker,git" alt="Tech Stack Icons" />
     </a>
   </p>
 
@@ -317,19 +317,6 @@ Kontribusi selalu terbuka! Jika Anda ingin menambahkan fitur atau memperbaiki bu
 ---
 
 <div align="center">
-
-  **Jika proyek ini bermanfaat bagi ambalan atau organisasi Anda, berikan STAR 🌟 di GitHub!**
-
-  <br/>
-
-  <a href="https://github.com/fiko30/Website-Dewan-Ambalan-2026/stargazers">
-    <img src="https://img.shields.io/github/stars/fiko30/Website-Dewan-Ambalan-2026?style=social" alt="GitHub Stars" />
-  </a>
-  <a href="https://github.com/fiko30/Website-Dewan-Ambalan-2026/network/members">
-    <img src="https://img.shields.io/github/forks/fiko30/Website-Dewan-Ambalan-2026?style=social" alt="GitHub Forks" />
-  </a>
-
-  <br/><br/>
 
   <b>Satyaku Kudarmakan, Darmaku Kubaktikan ⚜️</b><br/>
   <i>Ikhlas Bakti Bina Bangsa, Berbudi Bawa Laksana. Salam Pramuka!</i>
