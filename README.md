@@ -117,39 +117,54 @@ Peralihan dari format rekapitulasi konvensional (kertas / spreadsheet manual) ke
 
 ## 🏛️ Arsitektur & Alur Sistem
 
-Sistem dirancang dengan arsitektur yang aman dan modular:
+Sistem dirancang dengan arsitektur berlapis yang modular, aman, dan efisien:
 
-```mermaid
-flowchart TD
-    subgraph Client ["🌐 Client Layer"]
-        A[Pengunjung / Calon Peserta] -->|Akses Web| B(Landing Page index.php)
-        C[Admin / Tim Penguji] -->|Login| D(Login Page user/login.php)
-        A -->|Login Akun| D
-    end
-
-    subgraph AuthGuard ["🛡️ Session & Role Guard"]
-        D -->|Cek Kredensial & Role| E{Role Verification}
-        E -->|Role: Admin| F[Admin Dashboard admin/dashboard.php]
-        E -->|Role: Peserta| G[Student Dashboard user/dashboard.php]
-    end
-
-    subgraph BusinessLogic ["⚙️ Core Logic & Operations"]
-        F -->|Input Nilai 3 Pos & Atur KKM| H[CRUD & KKM Engine]
-        G -->|Lihat Rincian & Unduh| I[Slip Generator download_hasil.php]
-    end
-
-    subgraph DataLayer ["🗄️ Database & Storage Layer"]
-        H -->|Prepared Statements| J[(Database Connection Pool)]
-        I -->|Prepared Statements| J
-        J -->|Config via .env| K[(MySQL Database)]
-        K -->|Tabel users, penilaian, app_settings| J
-    end
-
-    style Client fill:#1e1b4b,stroke:#6366f1,stroke-width:2px,color:#fff
-    style AuthGuard fill:#2e1065,stroke:#8b5cf6,stroke-width:2px,color:#fff
-    style BusinessLogic fill:#3b0764,stroke:#a855f7,stroke-width:2px,color:#fff
-    style DataLayer fill:#022c22,stroke:#10b981,stroke-width:2px,color:#fff
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│                            🌐 1. CLIENT LAYER                              │
+│   [ Calon Peserta / Siswa ]                    [ Admin / Tim Penilai ]     │
+│              │                                            │                │
+│              ▼                                            ▼                │
+│    Landing Page (index.php)                  Login Portal (user/login.php) │
+└─────────────────────────────────────┬──────────────────────────────────────┘
+                                      │ Validasi Kredensial & Sesi
+                                      ▼
+┌────────────────────────────────────────────────────────────────────────────┐
+│                        🛡️ 2. AUTH & ACCESS GUARD                           │
+│                       [ Role Verification Engine ]                         │
+│                 ┌───────────────────┴───────────────────┐                  │
+│                 ▼                                       ▼                  │
+│       Role: Peserta (Siswa)                   Role: Administrator          │
+└─────────────────┬───────────────────────────────────────┬──────────────────┘
+                  │                                       │
+                  ▼                                       ▼
+┌─────────────────────────────────────┐ ┌────────────────────────────────────┐
+│       🎓 3A. PORTAL PESERTA         │ │     🛡️ 3B. PANEL ADMINISTRATOR     │
+│ • Dashboard Nilai & Status Lulus    │ │ • Input Nilai 3 Pos Seleksi Utama  │
+│ • Transparansi Rincian Skor Pos     │ │ • Manajemen Ambang Batas (KKM)     │
+│ • Unduh / Cetak Slip Hasil Resmi    │ │ • Rekapitulasi & Manajemen Peserta │
+└─────────────────┬───────────────────┘ └─────────────────┬──────────────────┘
+                  │                                       │
+                  └───────────────────┬───────────────────┘
+                                      │ Prepared Statements (MySQLi Pool)
+                                      ▼
+┌────────────────────────────────────────────────────────────────────────────┐
+│                   🗄️ 4. DATABASE & STORAGE LAYER (MySQL)                   │
+│   • users (Akun & Role)                  • penilaian (Skor 3 Pos Seleksi)  │
+│   • app_settings (Ambang Batas KKM)      • Terisolasi Aman via .env        │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
+
+### 🔄 Alur Aliran Data (Data Flow Pipeline)
+
+| Tahap | Modul & Entitas | File Rujukan | Deskripsi Alur Kerja |
+| :---: | :--- | :--- | :--- |
+| **01** | **Gerbang Akses** | `index.php` & `user/login.php` | Peserta maupun admin masuk melalui portal antarmuka dan mengisi autentikasi kredensial. |
+| **02** | **Proteksi Sesi** | *Role Verification Guard* | Sistem memvalidasi status login serta hak akses (mencegah bypass URL tanpa login). |
+| **03** | **Panel Admin** | `admin/dashboard.php` | Administrator menginput nilai 3 pos seleksi, memperbarui batas KKM, dan mengelola peserta. |
+| **04** | **Portal Peserta** | `user/dashboard.php` | Peserta melihat transparansi akumulasi nilai dan status kelulusan otomatis secara real-time. |
+| **05** | **Cetak Slip Hasil** | `user/download_hasil.php` | Peserta mencetak bukti pengumuman kelulusan resmi dalam format dokumen siap cetak. |
+| **06** | **Penyimpanan Data** | `config/config.php` | Eksekusi query terlindungi menggunakan *Prepared Statements* ke database MySQL. |
 
 ---
 
